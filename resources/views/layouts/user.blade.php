@@ -6,7 +6,7 @@
     <nav class="bg-white shadow-sm">
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center py-4">
-                <a href="{{ route('user.home') }}" class="text-xl font-bold text-blue-600">BookStore</a>
+                <a href="{{ route('user.home') }}" class="text-xl font-bold text-blue-600">Buku Jaya</a>
                 <div class="flex items-center space-x-6">
                     <a href="{{ route('user.products') }}" class="text-gray-600 hover:text-blue-600">Products</a>
                     <a href="{{ route('user.cart') }}" class="text-gray-600 hover:text-blue-600">Cart</a>
@@ -38,7 +38,7 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">BookStore</h3>
+                    <h3 class="text-xl font-bold mb-4">Buku Jaya</h3>
                     <p class="text-gray-400">Your one-stop shop for books and office supplies.</p>
                 </div>
                 <div>
@@ -52,12 +52,12 @@
                 </div>
                 <div>
                     <h4 class="font-semibold mb-4">Contact Us</h4>
-                    <p class="text-gray-400">Email: info@bookstore.com</p>
+                    <p class="text-gray-400">Email: info@Buku Jaya.com</p>
                     <p class="text-gray-400">Phone: (123) 456-7890</p>
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-                <p>&copy; 2023 BookStore. All rights reserved.</p>
+                <p>&copy; 2023 Buku Jaya. All rights reserved.</p>
             </div>
         </div>
     </footer>

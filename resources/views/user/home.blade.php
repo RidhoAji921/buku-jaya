@@ -4,11 +4,11 @@
 @section('user-content')
 <div class="bg-blue-600 text-white py-12">
     <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl font-bold mb-6">Welcome to Our Book Store</h1>
+        <h1 class="text-4xl font-bold mb-6">Welcome to Our Buku Jaya</h1>
         <p class="text-xl mb-8 max-w-2xl mx-auto">Discover a wide collection of books and office supplies at competitive prices</p>
         <div class="flex justify-center gap-4">
             <a href="{{ route('user.products') }}" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Browse Products</a>
-            <a href="#" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition">Special Offers</a>
+            <a href="{{ route('user.special-offers') }}" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition">Special Offers</a>
         </div>
     </div>
 </div>

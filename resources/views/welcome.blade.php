@@ -4,7 +4,7 @@
 @section('content')
 <div class="bg-blue-600 text-white py-16">
     <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl font-bold mb-4">Welcome to Our Online Book Store</h1>
+        <h1 class="text-4xl font-bold mb-4">Welcome to Our Buku Jaya</h1>
         <p class="text-xl mb-8">Find your favorite books and office supplies at the best prices</p>
         <div class="flex justify-center gap-4">
             <a href="{{ route('auth.login') }}" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Login</a>

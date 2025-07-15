@@ -4,7 +4,9 @@
 @section('admin-content')
 <div class="flex justify-between items-center mb-6">
     <h3 class="text-xl font-semibold">Product Management</h3>
-    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Add New Product</button>
+    <a href="{{ route('admin.products.add') }}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+        Add New Product
+    </a>
 </div>
 
 <div class="bg-white rounded-lg shadow overflow-hidden">

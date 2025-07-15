@@ -5,7 +5,7 @@
 <div class="container mx-auto px-4 py-12">
     <div class="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
         <div class="bg-blue-600 py-4 px-6">
-            <h1 class="text-2xl font-bold text-white">Login to Book Store</h1>
+            <h1 class="text-2xl font-bold text-white">Login to Buku Jaya</h1>
         </div>
         <div class="p-6">
             <div class="mb-8 text-center">
